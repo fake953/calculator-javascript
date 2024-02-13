@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* backgrond style*/
+section{
+    width: 400px;
+    height: 99vh;
+    margin: 0px auto;
+    background-color: rgb(219, 226, 219);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+main{
+    text-align: center;
+}
+/* all divs style*/
+main > div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+/* the number icons style*/
+.number{
+    margin: 10px;
+    padding: 15px 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: gray;
+    font-size: 1.5em;
+}
+/* the operator icons style */
+.operator{
+    margin: 10px 2px;
+    padding: 18px 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: gray;
+    font-size: 1.5;
+}
+/* the result style */
+#result{
+    border-bottom:1px solid black;
+    margin-bottom: 20px;
+    padding: 30px;
+    padding-bottom: 50px;
+    color: gray;
+    font-size: 1.3em;
+}
+/* the delete icon style */
+#delete{
+    margin: 10px;
+    padding: 15px 34px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: gray;
+    font-size: 1.3em;
+}
